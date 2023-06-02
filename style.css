@@ -9,22 +9,16 @@ h1 {
   }
 
 
-  .container {
-    .item {
-      padding: 3rem;
-      background: #333;
-      color: white;
-      border: 1px;
-      font-weight: bold;
-      font-size: 1.4rem;
-    
-    
-    
-    }
-
-
-    display: grid;
+  .container { display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 100px 200px 200px 100px;
     margin: 2 rem auto 2rem auto;
     width: 1000px;}
+
+    .item{
+      padding: 3rem;
+      background: #333;
+      color: white;
+      border: 1px solid white;
+      font-weight: bold;
+      font-size: 1.4rem;}
