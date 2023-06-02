@@ -26,8 +26,9 @@ h1 {
 
       .grid {
         display: grid;
+        column-gap: 2rem;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
+        
 }
 
 
