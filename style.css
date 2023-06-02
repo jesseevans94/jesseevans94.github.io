@@ -6,6 +6,8 @@ h1 {
     background-color: lightblue;
   }
   .container {
+    .item{background: #333;
+      color: white;}
     display: grid;
     grid-template-columns: 500px 500px;
     margin: 2rem auto 2rem auto;
