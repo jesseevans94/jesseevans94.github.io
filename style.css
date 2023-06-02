@@ -9,6 +9,14 @@ h1 {
     background: black;
   }
 
+p {  
+
+font-family: sans-serif;
+font-size: 30px;
+
+
+
+}
 
   .container { display: grid;
     grid-template-columns: 500px 500px;
