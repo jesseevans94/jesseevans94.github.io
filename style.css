@@ -48,3 +48,13 @@ height: 80px;
 display: orange;
 background-color: red;
 }
+
+.inner header{
+
+width: 100px;
+height: 100%;
+display: white;
+margin: 0 auto;
+background-color: blue;
+
+}
