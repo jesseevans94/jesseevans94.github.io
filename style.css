@@ -7,4 +7,5 @@ h1 {
   }
   .container {
     display: grid;
-}
+    margin: 2rem auto 2rem auto;
+    width: 1000px;}
