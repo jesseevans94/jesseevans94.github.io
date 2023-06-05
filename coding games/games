@@ -1,0 +1,54 @@
+// question
+Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+Examples
+
+sumDouble(1, 2) → 3
+sumDouble(3, 2) → 5
+sumDouble(2, 2) → 8
+
+
+// answer
+function sumDouble(a, b){
+  if a === b {
+    return a * 2 + b * 2
+  }
+  else {
+    return a + b
+  }
+}
+}
+
+Test → Expected	Yours	Result
+sumDouble(1, 2) → 3	3	✔	
+sumDouble(3, 2) → 5	5	✔	
+sumDouble(2, 2) → 8	8	✔	
+sumDouble(-1, 0) → -1	-1	✔	
+sumDouble(3, 3) → 12	12	✔	
+sumDouble(0, 0) → 0	0	✔	
+sumDouble(0, 1) → 1	1	✔	
+sumDouble(3, 4) → 7	7	✔	
+
+
+
+
+// question
+We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
+
+Examples
+
+monkeyTrouble(true, true) → true
+monkeyTrouble(false, false) → true
+monkeyTrouble(true, false) → false
+
+
+// answer
+function monkeyTrouble(aSmile, bSmile){
+    if(aSmile === true && bSmile === true) {
+      return true
+    } else if (aSmile === false && bSmile === false) {
+      return true 
+    } else {
+      return false
+    }
+  }
