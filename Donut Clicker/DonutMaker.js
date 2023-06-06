@@ -57,6 +57,11 @@ getAutoClickerCost() {
     return this.autoClickerCost;
 }
 
+makeAutoClickerWork(){ 
+    this.donutClick = this.autoClicker + this.donutClick * this.donutCount;
+}
+
+
 }
 
 getDonutValue(){
