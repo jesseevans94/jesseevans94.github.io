@@ -8,6 +8,9 @@ h1 {
   body {
     background-color: lightblue;
     background: black;
+
+    /* background-image:url("https://cdn.shopify.com/s/files/1/2612/1482/products/slam-x-fathead-derrick-rose-501445.jpg?v=1610504491"); */
+
   }
 
 p {  
@@ -46,6 +49,8 @@ color: aliceblue;
 .picture{
   grid-area: picture;
 }
+
+
 
 
     .trades{
