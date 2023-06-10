@@ -32,10 +32,20 @@ color: wheat;
     'contacts contacts';
     gap: 4rem;}
   
+    #codingimage{
+
+      height: 510px;
+      width: 1895px;
+    }
 
     .header{
 grid-area: header;
 color: aliceblue;
+display: block;
+position: relative;
+
+
+
     }
 
     .title{
@@ -79,7 +89,7 @@ color: aliceblue;
     }
 
     .footer{
-  color: aliceblue;
+  color: wheat;
     }
 
     .item{
@@ -110,4 +120,7 @@ padding-top: 150px;
 
  a{
   color: wheat;
+
+
+
 }
