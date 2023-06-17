@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Clicker</title>
+
+<link rel ="stylesheet" href="style.css"></link>
+</head>
+
+
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>My Name is Jae a new employee at Fred Bakery & I really love working for Fred! I get free donuts and want to manage a new location when the company expands.</p>
+  </div>
+
+</div>
+
+
+
+
+<div class="container"> 
+  <header class="info">
+    <nav>
+       <ul id="info">
+
+             <!-- ABOUT INFO -->
+         <li><button class="aboutButton"> About Us </button>
+          <div class="infoContent"><p> Fred Baking Company is a bakery that is known for our delicious donuts and excellent customer service. Our owner Fred is known for saying "Time to Make the Donuts!"</p>
+        </div>
+        </li>
+
+
+               <!-- INSPIRATION INFO -->
+         
+         <li><button class="inspireButton">What Inspired Us </button>
+          <div class="infoContent">
+
+          <p>
+            Our Inspiration Comes From Here: <a
+          href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>
+          </p>
+        </div>
+        </li>
+
+                 <!-- CONTACT INFO -->
+          
+      <section>
+         <li><button class="contactButton"> Contact Us </button>
+        <div class="infoContent"><p> You can reach me by Phone at: <a href="tel: (708)743-6555">(708)743-6555</a> Here is my Github <a href="https://github.com/jesseevans94" target="_blank">Github</a> Here is my Linkedin <a href="https://www.linkedin.com/in/jesse-evans-477a38a4/" target="_blank">Linkedin</a>
+        
+        
+        </div>
+      </section>
+
+        </p>
+      </li>
+       </ul>
+
+    </nav>
+  </header>
+
+
+                   <!-- HEADER -->
+    <div class="header">
+        <img id="roseheader" src="https://cdn.shopify.com/s/files/1/0173/8181/8422/products/o0BBZzQd3N0-HD.jpg?v=1674748072&width=1946"></div>
+    
+                   <h1>The Donut Shop</h1>
+    
+
+
+
+   
+<!-- Main Section Donuts Button & Donuts Made -->
+<section>
+    <div class="donutcount"></div>
+<button id="donuts" class="btn">
+    <img id="clicker" src="https://m.media-amazon.com/images/I/711JkbI6d6L._AC_UY395_.jpg" alt="picture of a donut">
+</button>
+
+<p>Donuts Made: </p>
+<span id="tracker">0</span>
+
+</section>
+
+<hr>
+
+
+
+
+                  <!-- AutoClicker section -->
+
+<section> 
+<div id="upgrade" class="upgradables">
+  <p>AutoClickers Purchased: <span id="autoTracker">0</span>
+  </p>
+  
+
+    <p>Auto Clicker Cost: <span id="cost"></span></p>
+
+<button id="autoClicker" class="btn"> Purchase Auto Clicker</button>
+</div>
+    </section>
+    
+<hr>
+
+                     <!-- reset button -->
+    <section><button id="restart"> Reset</button>
+
+        </section>
+
+      </div>
+        
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
